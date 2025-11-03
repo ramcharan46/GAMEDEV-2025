@@ -1,0 +1,21 @@
+using UnityEngine;
+
+public class EnemyDie : MonoBehaviour
+{
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Axe"))
+        {
+            Destroy(gameObject);
+        }
+        if (other.CompareTag("Fireball"))
+        {
+            Destroy(gameObject);
+        }
+        if (other.CompareTag("Laser"))
+        {
+            Destroy(gameObject);
+        }
+    }
+}
