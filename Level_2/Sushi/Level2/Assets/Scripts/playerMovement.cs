@@ -4,12 +4,7 @@ public class playermovement : MonoBehaviour
 {
     public Rigidbody2D player;
     public float speed = 3f;
-    private SpriteRenderer spriteRenderer;
-
-    void Start()
-    {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-    }
+    private bool facingRight = true;
 
     void Update()
     {
@@ -18,9 +13,17 @@ public class playermovement : MonoBehaviour
 
         player.linearVelocity = new Vector2(moveX, moveY).normalized * speed;
 
-        if (moveX != 0)
-        {
-            spriteRenderer.flipX = moveX < 0;
-        }
+        if (moveX > 0 && !facingRight)
+            Flip();
+        else if (moveX < 0 && facingRight)
+            Flip();
+    }
+
+    void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
     }
 }

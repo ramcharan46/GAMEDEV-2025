@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e201667255a51f94b926d9ffe6a6310d
+guid: a5af0901b11581742ae19c0add2f4f06
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2729474294962074667
-    second: SandboxMascot_0
+      213: -3753825769889500098
+    second: sword_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SandboxMascot_0
+      name: sword_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 70
-        width: 381
-        height: 404
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 10
+        y: 12
+        width: 44
+        height: 44
+      alignment: 9
+      pivot: {x: 0.008955284, y: 0.01400449}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2436cee86a01e520800000000000000
-      internalID: 2729474294962074667
+      spriteID: e347705d95bb7ebc0800000000000000
+      internalID: -3753825769889500098
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c80f1e7a9bf5ef14a835bbbdba45a6e9
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SandboxMascot_0: 2729474294962074667
+      sword_0: -3753825769889500098
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
